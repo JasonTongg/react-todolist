@@ -1,9 +1,9 @@
 import './App.css';
 import Todo from './Components/Todo/Todo';
-import image from '../Assets/background.webp';
-import image2 from '../Assets/background2.png';
-import image3 from '../Assets/background3.png';
-import image4 from '../Assets/background4.png';
+import image from './Assets/background.webp';
+import image2 from './Assets/background2.png';
+import image3 from './Assets/background3.png';
+import image4 from './Assets/background4.png';
 
 function App() {
   return (
@@ -21,29 +21,33 @@ function App() {
           justifyContent: 'center',
         }}
       >
-        <Image
+        <img
           src={image}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
-        <Image
+        <img
           src={image2}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
-        <Image
+        <img
           src={image3}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
-        <Image
+        <img
           src={image4}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
       </div>
     </div>
